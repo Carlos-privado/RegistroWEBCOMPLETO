@@ -22,43 +22,43 @@ FROM
 			<staticText>
 				<reportElement x="176" y="27" width="199" height="33" uuid="cf403159-881c-415b-b0df-c9613d3f44c4"/>
 				<textElement>
-					<font size="18" isBold="true" isItalic="true"/>
+					<font size="20" isBold="true" isItalic="true"/>
 				</textElement>
-				<text><![CDATA[TABLA CATEGORIA]]></text>
+				<text><![CDATA[REPORTE TABLAS]]></text>
 			</staticText>
 		</band>
 	</title>
 	<pageHeader>
 		<band height="42" splitType="Stretch">
 			<staticText>
-				<reportElement x="153" y="0" width="236" height="22" uuid="ffb21005-a0f7-4af0-908b-cc1fa82554b3"/>
+				<reportElement x="74" y="0" width="422" height="33" uuid="ffb21005-a0f7-4af0-908b-cc1fa82554b3"/>
 				<textElement>
 					<font size="12" isBold="false" isItalic="false"/>
 				</textElement>
-				<text><![CDATA[Reporte PDF creado con ireport y jasper]]></text>
+				<text><![CDATA[Reporte PDF Carlos Daniel Privado Urbina 190019 con jasper y itext]]></text>
 			</staticText>
 		</band>
 	</pageHeader>
 	<columnHeader>
 		<band height="61" splitType="Stretch">
 			<staticText>
-				<reportElement x="41" y="42" width="100" height="20" uuid="4189bb07-4ed1-4ce9-abc0-a670f074a0d3"/>
-				<text><![CDATA[ID]]></text>
+				<reportElement x="119" y="22" width="100" height="20" uuid="4189bb07-4ed1-4ce9-abc0-a670f074a0d3"/>
+				<text><![CDATA[ID Categoria]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="218" y="41" width="100" height="20" uuid="4e2ad833-1503-451d-b791-a5b466947465"/>
+				<reportElement x="218" y="22" width="100" height="20" uuid="4e2ad833-1503-451d-b791-a5b466947465"/>
 				<text><![CDATA[Nombre Categoria]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="430" y="42" width="100" height="20" uuid="25d2c63f-a82f-4452-abb9-c1bb063e4941"/>
-				<text><![CDATA[Estado ]]></text>
+				<reportElement x="318" y="22" width="100" height="20" uuid="25d2c63f-a82f-4452-abb9-c1bb063e4941"/>
+				<text><![CDATA[Estado Categoria]]></text>
 			</staticText>
 		</band>
 	</columnHeader>
 	<detail>
 		<band height="125" splitType="Stretch">
 			<textField>
-				<reportElement x="19" y="0" width="100" height="20" uuid="ac490c8f-f449-4ec1-aec0-7f17fe0e8e04"/>
+				<reportElement x="118" y="0" width="100" height="20" uuid="ac490c8f-f449-4ec1-aec0-7f17fe0e8e04"/>
 				<textFieldExpression><![CDATA[$F{tb_categoria_id_categoria}]]></textFieldExpression>
 			</textField>
 			<textField>
@@ -66,7 +66,7 @@ FROM
 				<textFieldExpression><![CDATA[$F{tb_categoria_nom_categoria}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="430" y="0" width="100" height="20" uuid="d493cf19-1ca2-4791-8dc1-a8fd50770446"/>
+				<reportElement x="318" y="0" width="100" height="20" uuid="d493cf19-1ca2-4791-8dc1-a8fd50770446"/>
 				<textFieldExpression><![CDATA[$F{tb_categoria_estado_categoria}]]></textFieldExpression>
 			</textField>
 		</band>
@@ -77,11 +77,11 @@ FROM
 	<pageFooter>
 		<band height="54" splitType="Stretch">
 			<staticText>
-				<reportElement x="163" y="10" width="236" height="22" uuid="002c09ff-8b4c-4e04-aa55-cc182c298b12"/>
+				<reportElement x="84" y="10" width="422" height="33" uuid="fd56b634-8938-4cd5-9506-9cb31443bf7f"/>
 				<textElement>
 					<font size="12" isBold="false" isItalic="false"/>
 				</textElement>
-				<text><![CDATA[Privado Urbina 190019]]></text>
+				<text><![CDATA[Reporte PDF Carlos Daniel Privado Urbina 190019 con jasper y itext]]></text>
 			</staticText>
 		</band>
 	</pageFooter>

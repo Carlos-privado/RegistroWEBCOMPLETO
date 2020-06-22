@@ -44,8 +44,11 @@
                 
                 
                 <tr>
+                    
                     <td><%= categoria.getId_categoria() %></td>
+                    
                     <td><%= categoria.getNom_categoria() %></td>
+                    
                     <td><%= categoria.getEstado_categoria() %></td>
                     
                     <td>
